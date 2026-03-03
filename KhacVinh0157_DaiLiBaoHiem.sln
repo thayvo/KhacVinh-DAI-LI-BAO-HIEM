@@ -1,0 +1,533 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService", "PricingService\PricingService.csproj", "{FA0F04C3-4F47-4E70-82A1-0138552593FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.Api", "PricingService.Api\PricingService.Api.csproj", "{7A52E79F-6D9F-4BA6-B5CF-3B05DDF790A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.Tests", "PricingService.Tests\PricingService.Tests.csproj", "{6AC44360-39BA-4113-B8F9-00BAB3E3CBC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService", "PolicyService\PolicyService.csproj", "{97329D8E-ECED-4335-B378-09E504638C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService.Api", "PolicyService.Api\PolicyService.Api.csproj", "{62C19906-F110-4606-86F0-FAA29314504F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService.Tests", "PolicyService.Tests\PolicyService.Tests.csproj", "{7FE852C0-142A-42AE-96D7-3C0165E67361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService", "PolicySearchService\PolicySearchService.csproj", "{C917B654-DD10-4A37-86E5-C80E215B80B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService.Api", "PolicySearchService.Api\PolicySearchService.Api.csproj", "{3A76BD60-58A2-4C81-8026-C2B61B263B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService.Tests", "PolicySearchService.Tests\PolicySearchService.Tests.csproj", "{AF98F8B9-3036-4327-BF82-6EF63BDC6D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{69A2E83E-92AF-400C-A29C-3A29271A8514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Api", "PaymentService.Api\PaymentService.Api.csproj", "{8B42204B-EF04-4CAC-8435-07EDF9940211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Tests", "PaymentService.Tests\PaymentService.Tests.csproj", "{D29584DA-544D-4784-A42B-8A8B7922E9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{44D0A612-46A8-46FD-AD15-CD9DFFD67F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Api", "ProductService.Api\ProductService.Api.csproj", "{824C9A6E-C55A-47BA-9704-FAD748862865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Tests", "ProductService.Tests\ProductService.Tests.csproj", "{16118A06-DFDB-4736-84FB-93A6B52B0CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService", "DocumentService\DocumentService.csproj", "{076FEB51-CF86-4AAD-A62C-617245402873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService.Api", "DocumentService.Api\DocumentService.Api.csproj", "{387AF45C-A0B3-48EE-B0C9-882234524691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService.Tests", "DocumentService.Tests\DocumentService.Tests.csproj", "{98FAF256-871D-47FA-844C-5C17064983C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalGatewayService", "AgentPortalGatewayService\AgentPortalGatewayService.csproj", "{5BB348FF-7B75-42A9-AB26-D45E30BDFC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalGatewayService.Api", "AgentPortalGatewayService.Api\AgentPortalGatewayService.Api.csproj", "{69A1D4C1-9C17-4EC9-81D3-2768CCD6046C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalGatewayService.Tests", "AgentPortalGatewayService.Tests\AgentPortalGatewayService.Tests.csproj", "{4AEAA3B6-67CB-4CC0-9A41-597090628E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Api", "AuthService.Api\AuthService.Api.csproj", "{131ED75E-9109-4AC0-BB2C-C0B2F3F88DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{F4273A18-2DEE-43F4-ADF8-5828B11307BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Tests", "AuthService.Tests\AuthService.Tests.csproj", "{413073E2-41DD-47C9-9B2A-75F10071F7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService", "ChatService\ChatService.csproj", "{2347F9DB-18B7-4AFE-83A2-FBA0290A146B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Api", "ChatService.Api\ChatService.Api.csproj", "{F64FA1C2-C93F-4056-8DA5-BF1FDA7EA98B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Tests", "ChatService.Tests\ChatService.Tests.csproj", "{2A130000-66B4-4C2B-B913-956F651F13BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\postgres\postgres\createdatabases.sql = ..\thuchanh\postgres\postgres\createdatabases.sql
+		..\thuchanh\postgres\postgres\Dockerfile = ..\thuchanh\postgres\postgres\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eureka-server", "eureka-server", "{E6B78579-5462-424B-8DDA-46F3A0A89E0D}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\eureka-server\eureka-server\build.gradle = ..\thuchanh\eureka-server\eureka-server\build.gradle
+		..\thuchanh\eureka-server\eureka-server\Dockerfile = ..\thuchanh\eureka-server\eureka-server\Dockerfile
+		..\thuchanh\eureka-server\eureka-server\gradlew = ..\thuchanh\eureka-server\eureka-server\gradlew
+		..\thuchanh\eureka-server\eureka-server\gradlew.bat = ..\thuchanh\eureka-server\eureka-server\gradlew.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradle", "gradle", "{AC82EF05-9158-4D02-B960-76560EAF0074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrapper", "wrapper", "{F5D68A15-C503-49CE-9827-1F68FA600765}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.jar = ..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.jar
+		..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.properties = ..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.properties
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19198FFE-9786-4AF6-BB04-26B3BBD77B7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{A34B3FFE-896A-4695-B4FC-B482C4776825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "java", "java", "{1DD56F5D-14FA-42F7-860A-1CBA29B5DC57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{4863D57E-B3F2-4EE0-BB9A-52BD50494E1E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\src\main\resources\application.yml = ..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\src\main\resources\application.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net", "net", "{3328F1FB-297F-4CF5-9348-D6D73A954238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chrisrichardson", "chrisrichardson", "{836B2741-140D-4B73-ADDC-B260D0D56B75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{61944421-D3AC-4B78-8741-57F0893A4C92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eurekaserver", "eurekaserver", "{6D07F783-046B-4FA8-893B-B77C77B2A214}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java = ..\..\tài liệu pháp luật đại cương photo\eureka-server\eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{6E6A57BC-2F69-4370-BF9D-6ED7213585E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\scripts\scripts\app-build.sh = ..\thuchanh\scripts\scripts\app-build.sh
+		..\thuchanh\scripts\scripts\app-down.sh = ..\thuchanh\scripts\scripts\app-down.sh
+		..\thuchanh\scripts\scripts\app-logs.sh = ..\thuchanh\scripts\scripts\app-logs.sh
+		..\thuchanh\scripts\scripts\app-run.sh = ..\thuchanh\scripts\scripts\app-run.sh
+		..\thuchanh\scripts\scripts\app.yml = ..\thuchanh\scripts\scripts\app.yml
+		..\thuchanh\scripts\scripts\build-without-tests.bat = ..\thuchanh\scripts\scripts\build-without-tests.bat
+		..\thuchanh\scripts\scripts\build-without-tests.sh = ..\thuchanh\scripts\scripts\build-without-tests.sh
+		..\thuchanh\scripts\scripts\build.bat = ..\thuchanh\scripts\scripts\build.bat
+		..\thuchanh\scripts\scripts\build.sh = ..\thuchanh\scripts\scripts\build.sh
+		..\thuchanh\scripts\scripts\infra-build.sh = ..\thuchanh\scripts\scripts\infra-build.sh
+		..\thuchanh\scripts\scripts\infra-down.sh = ..\thuchanh\scripts\scripts\infra-down.sh
+		..\thuchanh\scripts\scripts\infra-logs.sh = ..\thuchanh\scripts\scripts\infra-logs.sh
+		..\thuchanh\scripts\scripts\infra-run.sh = ..\thuchanh\scripts\scripts\infra-run.sh
+		..\thuchanh\scripts\scripts\infra.yml = ..\thuchanh\scripts\scripts\infra.yml
+		..\thuchanh\scripts\scripts\rabbitmq-isolated.conf = ..\thuchanh\scripts\scripts\rabbitmq-isolated.conf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{B7DFC511-6C5D-4944-917D-A1EF3DA55913}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\.dockerignore = ..\thuchanh\Web\Web\.dockerignore
+		..\thuchanh\Web\Web\.env-example = ..\thuchanh\Web\Web\.env-example
+		..\thuchanh\Web\Web\.gitignore = ..\thuchanh\Web\Web\.gitignore
+		..\thuchanh\Web\Web\babel.config.js = ..\thuchanh\Web\Web\babel.config.js
+		..\thuchanh\Web\Web\Dockerfile = ..\thuchanh\Web\Web\Dockerfile
+		..\thuchanh\Web\Web\nginx.conf = ..\thuchanh\Web\Web\nginx.conf
+		..\thuchanh\Web\Web\package-lock.json = ..\thuchanh\Web\Web\package-lock.json
+		..\thuchanh\Web\Web\package.json = ..\thuchanh\Web\Web\package.json
+		..\thuchanh\Web\Web\README.md = ..\thuchanh\Web\Web\README.md
+		..\thuchanh\Web\Web\yarn.lock = ..\thuchanh\Web\Web\yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{E8858EDA-85A3-4139-880B-A71E2E7B6799}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\public\favicon.ico = ..\thuchanh\Web\Web\public\favicon.ico
+		..\thuchanh\Web\Web\public\index.html = ..\thuchanh\Web\Web\public\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{CD2C8D07-5B3B-4A42-9DB0-D12D226E11D0}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\public\static\car.jpg = ..\thuchanh\Web\Web\public\static\car.jpg
+		..\thuchanh\Web\Web\public\static\farm.jpg = ..\thuchanh\Web\Web\public\static\farm.jpg
+		..\thuchanh\Web\Web\public\static\house.jpg = ..\thuchanh\Web\Web\public\static\house.jpg
+		..\thuchanh\Web\Web\public\static\travel.jpg = ..\thuchanh\Web\Web\public\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{0D60C4DB-4A9B-43AD-BA0F-5FE4A3822928}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\public\static\avatars\admin.png = ..\thuchanh\Web\Web\public\static\avatars\admin.png
+		..\thuchanh\Web\Web\public\static\avatars\agent1.png = ..\thuchanh\Web\Web\public\static\avatars\agent1.png
+		..\thuchanh\Web\Web\public\static\avatars\danny_solid.png = ..\thuchanh\Web\Web\public\static\avatars\danny_solid.png
+		..\thuchanh\Web\Web\public\static\avatars\jimmy_solid.png = ..\thuchanh\Web\Web\public\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D2C852F-B588-4F23-84DD-4F8DC9D2A807}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\src\App.vue = ..\thuchanh\Web\Web\src\App.vue
+		..\thuchanh\Web\Web\src\main.js = ..\thuchanh\Web\Web\src\main.js
+		..\thuchanh\Web\Web\src\router.js = ..\thuchanh\Web\Web\src\router.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{81DD198A-9871-4A18-8E36-19194D90F660}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\src\assets\logo.png = ..\thuchanh\Web\Web\src\assets\logo.png
+		..\thuchanh\Web\Web\src\assets\logo_horizontal.png = ..\thuchanh\Web\Web\src\assets\logo_horizontal.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{4C77BBD8-468C-4769-A340-A967CC93EA61}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\src\components\Account.vue = ..\thuchanh\Web\Web\src\components\Account.vue
+		..\thuchanh\Web\Web\src\components\Chat.vue = ..\thuchanh\Web\Web\src\components\Chat.vue
+		..\thuchanh\Web\Web\src\components\Chatbot.vue = ..\thuchanh\Web\Web\src\components\Chatbot.vue
+		..\thuchanh\Web\Web\src\components\CoverList.vue = ..\thuchanh\Web\Web\src\components\CoverList.vue
+		..\thuchanh\Web\Web\src\components\Dashboard.vue = ..\thuchanh\Web\Web\src\components\Dashboard.vue
+		..\thuchanh\Web\Web\src\components\Home.vue = ..\thuchanh\Web\Web\src\components\Home.vue
+		..\thuchanh\Web\Web\src\components\PolicyCreate.vue = ..\thuchanh\Web\Web\src\components\PolicyCreate.vue
+		..\thuchanh\Web\Web\src\components\PolicyDetails.vue = ..\thuchanh\Web\Web\src\components\PolicyDetails.vue
+		..\thuchanh\Web\Web\src\components\PolicyList.vue = ..\thuchanh\Web\Web\src\components\PolicyList.vue
+		..\thuchanh\Web\Web\src\components\ProductCard.vue = ..\thuchanh\Web\Web\src\components\ProductCard.vue
+		..\thuchanh\Web\Web\src\components\ProductDetails.vue = ..\thuchanh\Web\Web\src\components\ProductDetails.vue
+		..\thuchanh\Web\Web\src\components\ProductList.vue = ..\thuchanh\Web\Web\src\components\ProductList.vue
+		..\thuchanh\Web\Web\src\components\SalesAgents.vue = ..\thuchanh\Web\Web\src\components\SalesAgents.vue
+		..\thuchanh\Web\Web\src\components\SalesBar.js = ..\thuchanh\Web\Web\src\components\SalesBar.js
+		..\thuchanh\Web\Web\src\components\SalesDistribution.vue = ..\thuchanh\Web\Web\src\components\SalesDistribution.vue
+		..\thuchanh\Web\Web\src\components\SalesLines.js = ..\thuchanh\Web\Web\src\components\SalesLines.js
+		..\thuchanh\Web\Web\src\components\SalesPie.js = ..\thuchanh\Web\Web\src\components\SalesPie.js
+		..\thuchanh\Web\Web\src\components\SalesTrendsLines.vue = ..\thuchanh\Web\Web\src\components\SalesTrendsLines.vue
+		..\thuchanh\Web\Web\src\components\TotalSalesCard.vue = ..\thuchanh\Web\Web\src\components\TotalSalesCard.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http", "http", "{2B531C7C-EFAA-4DC1-A31C-CB5CEEAF1420}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\src\components\http\ApiClient.js = ..\thuchanh\Web\Web\src\components\http\ApiClient.js
+		..\thuchanh\Web\Web\src\components\http\Auth.js = ..\thuchanh\Web\Web\src\components\http\Auth.js
+		..\thuchanh\Web\Web\src\components\http\WebSocket.js = ..\thuchanh\Web\Web\src\components\http\WebSocket.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{84FC436E-5AD7-40E6-86EE-481FBF167156}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\Web\Web\src\views\AccountView.vue = ..\thuchanh\Web\Web\src\views\AccountView.vue
+		..\thuchanh\Web\Web\src\views\ChatbotView.vue = ..\thuchanh\Web\Web\src\views\ChatbotView.vue
+		..\thuchanh\Web\Web\src\views\ChatView.vue = ..\thuchanh\Web\Web\src\views\ChatView.vue
+		..\thuchanh\Web\Web\src\views\DashboardView.vue = ..\thuchanh\Web\Web\src\views\DashboardView.vue
+		..\thuchanh\Web\Web\src\views\HomeView.vue = ..\thuchanh\Web\Web\src\views\HomeView.vue
+		..\thuchanh\Web\Web\src\views\PoliciesView.vue = ..\thuchanh\Web\Web\src\views\PoliciesView.vue
+		..\thuchanh\Web\Web\src\views\PolicyCreateView.vue = ..\thuchanh\Web\Web\src\views\PolicyCreateView.vue
+		..\thuchanh\Web\Web\src\views\PolicyDetailsView.vue = ..\thuchanh\Web\Web\src\views\PolicyDetailsView.vue
+		..\thuchanh\Web\Web\src\views\ProductDetailsView.vue = ..\thuchanh\Web\Web\src\views\ProductDetailsView.vue
+		..\thuchanh\Web\Web\src\views\ProductsView.vue = ..\thuchanh\Web\Web\src\views\ProductsView.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWasmClient", "BlazorWasmClient", "{4558BB88-8901-4012-AA8D-551657F747F2}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\App.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\App.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\BlazorWasmClient.csproj = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\BlazorWasmClient.csproj
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\GlobalUsings.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\GlobalUsings.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Program.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Program.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\_Imports.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\_Imports.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentPortalApiGateway", "AgentPortalApiGateway", "{D5F8C93B-D685-4187-ADE1-59E3FA9D2F64}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\AgentPortalApiGateway.csproj = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\AgentPortalApiGateway.csproj
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\AppSettings.cs = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\AppSettings.cs
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.Development.json = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.Development.json
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.docker.json = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.docker.json
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.json = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.json
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\Dockerfile = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\Dockerfile
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.docker.json = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.docker.json
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.json = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.json
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\Program.cs = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{4CE4D956-EFCB-42F2-838C-DCD391FEA852}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\Properties\launchSettings.json = ..\thuchanh\AgentPortalApiGateway\AgentPortalApiGateway\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{EF65C65D-F85F-4B32-B132-C08629B4A7CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layouts", "Layouts", "{02FEE619-5112-4DE1-9159-11B8C89E6A95}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{169F1268-30A3-40A5-8A08-716D69BA04AF}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Pages\Home.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Pages\Home.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{26D9D7DB-95F7-49BB-8358-1E44D10BC3B0}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Properties\launchSettings.json = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1052E1ED-7F3C-4A0F-821A-77DB841F0742}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\ApiResponse.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\ApiResponse.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\CustomValidations.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\CustomValidations.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\DateTimeExtension.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\DateTimeExtension.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\ProductIcons.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Shared\ProductIcons.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{BDA8AE1F-FB94-4556-A2DF-B028CE295266}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\appsettings.json = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\appsettings.json
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\brand-logo.png = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\brand-logo.png
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\favicon.ico = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\favicon.ico
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\index.html = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{8C3BF3A1-9D16-4130-A122-53A713600AE9}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\car.jpg = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\car.jpg
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\farm.jpg = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\farm.jpg
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\house.jpg = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\house.jpg
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\travel.jpg = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{BFD5CEA5-95F5-4A71-A164-425CFE55748F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{9A54F0AE-2C90-449E-A831-952EBED49E23}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\blazor-ui.css = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\blazor-ui.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{783FBC3A-AAA4-4EF1-A409-835CCC24DF7E}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css.map = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css.map
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css.map = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{68ECC58E-BCC0-4C41-BD01-D91000C7C90F}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js.map = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js.map
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js.map = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{FBB79328-4E24-49FE-8C66-FF8B74E6000F}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\admin.png = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\admin.png
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\agent1.png = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\agent1.png
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\danny_solid.png = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\danny_solid.png
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{07349D91-985B-42A5-BC71-5533668C1288}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthClient.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthClient.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthRequest.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthRequest.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthResponse.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthResponse.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\Login.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\Login.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\SessionStorageExtension.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\SessionStorageExtension.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\UserSession.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Auth\UserSession.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{08C87B25-2CF1-4B86-B54D-E97FBDEF8910}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Chat\Chat.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Chat\Chat.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Chat\ChatMessage.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Chat\ChatMessage.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{E21A5947-F157-4115-9C4B-C225C7BCF8FE}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\Dashboard.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\Dashboard.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\DashboardClient.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\DashboardClient.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TrandsCard.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TrandsCard.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layout", "Layout", "{F2710F40-EBBE-454E-A05A-AB216F73328A}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\FooterMenu.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\FooterMenu.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\SideMenu.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\SideMenu.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\TopMenu.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Layout\TopMenu.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearch", "PolicySearch", "{5C31D165-5AF3-4160-87A3-05E4450C65DA}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearch.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearch.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{5E6CDC46-EBED-49D4-A9A4-99AE607A1B62}"
+	ProjectSection(SolutionItems) = preProject
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ContractDetailsSection.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ContractDetailsSection.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParametersModel.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParametersModel.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParamsSection.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParamsSection.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicyClient.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicyClient.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicySummarySection.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicySummarySection.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductCard.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductCard.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductDetails.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductDetails.razor
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsClient.cs = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsClient.cs
+		..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsList.razor = ..\thuchanh\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsList.razor
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0F04C3-4F47-4E70-82A1-0138552593FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0F04C3-4F47-4E70-82A1-0138552593FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0F04C3-4F47-4E70-82A1-0138552593FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0F04C3-4F47-4E70-82A1-0138552593FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A52E79F-6D9F-4BA6-B5CF-3B05DDF790A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A52E79F-6D9F-4BA6-B5CF-3B05DDF790A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A52E79F-6D9F-4BA6-B5CF-3B05DDF790A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A52E79F-6D9F-4BA6-B5CF-3B05DDF790A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC44360-39BA-4113-B8F9-00BAB3E3CBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC44360-39BA-4113-B8F9-00BAB3E3CBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC44360-39BA-4113-B8F9-00BAB3E3CBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC44360-39BA-4113-B8F9-00BAB3E3CBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97329D8E-ECED-4335-B378-09E504638C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97329D8E-ECED-4335-B378-09E504638C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97329D8E-ECED-4335-B378-09E504638C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97329D8E-ECED-4335-B378-09E504638C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C19906-F110-4606-86F0-FAA29314504F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C19906-F110-4606-86F0-FAA29314504F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C19906-F110-4606-86F0-FAA29314504F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C19906-F110-4606-86F0-FAA29314504F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE852C0-142A-42AE-96D7-3C0165E67361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE852C0-142A-42AE-96D7-3C0165E67361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE852C0-142A-42AE-96D7-3C0165E67361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE852C0-142A-42AE-96D7-3C0165E67361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C917B654-DD10-4A37-86E5-C80E215B80B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C917B654-DD10-4A37-86E5-C80E215B80B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C917B654-DD10-4A37-86E5-C80E215B80B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C917B654-DD10-4A37-86E5-C80E215B80B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A76BD60-58A2-4C81-8026-C2B61B263B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A76BD60-58A2-4C81-8026-C2B61B263B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A76BD60-58A2-4C81-8026-C2B61B263B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A76BD60-58A2-4C81-8026-C2B61B263B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF98F8B9-3036-4327-BF82-6EF63BDC6D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF98F8B9-3036-4327-BF82-6EF63BDC6D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF98F8B9-3036-4327-BF82-6EF63BDC6D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF98F8B9-3036-4327-BF82-6EF63BDC6D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A2E83E-92AF-400C-A29C-3A29271A8514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A2E83E-92AF-400C-A29C-3A29271A8514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A2E83E-92AF-400C-A29C-3A29271A8514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A2E83E-92AF-400C-A29C-3A29271A8514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B42204B-EF04-4CAC-8435-07EDF9940211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B42204B-EF04-4CAC-8435-07EDF9940211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B42204B-EF04-4CAC-8435-07EDF9940211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B42204B-EF04-4CAC-8435-07EDF9940211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29584DA-544D-4784-A42B-8A8B7922E9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29584DA-544D-4784-A42B-8A8B7922E9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29584DA-544D-4784-A42B-8A8B7922E9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29584DA-544D-4784-A42B-8A8B7922E9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D0A612-46A8-46FD-AD15-CD9DFFD67F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D0A612-46A8-46FD-AD15-CD9DFFD67F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D0A612-46A8-46FD-AD15-CD9DFFD67F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D0A612-46A8-46FD-AD15-CD9DFFD67F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824C9A6E-C55A-47BA-9704-FAD748862865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824C9A6E-C55A-47BA-9704-FAD748862865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824C9A6E-C55A-47BA-9704-FAD748862865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824C9A6E-C55A-47BA-9704-FAD748862865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16118A06-DFDB-4736-84FB-93A6B52B0CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16118A06-DFDB-4736-84FB-93A6B52B0CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16118A06-DFDB-4736-84FB-93A6B52B0CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16118A06-DFDB-4736-84FB-93A6B52B0CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076FEB51-CF86-4AAD-A62C-617245402873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076FEB51-CF86-4AAD-A62C-617245402873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076FEB51-CF86-4AAD-A62C-617245402873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076FEB51-CF86-4AAD-A62C-617245402873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387AF45C-A0B3-48EE-B0C9-882234524691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387AF45C-A0B3-48EE-B0C9-882234524691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387AF45C-A0B3-48EE-B0C9-882234524691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387AF45C-A0B3-48EE-B0C9-882234524691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FAF256-871D-47FA-844C-5C17064983C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FAF256-871D-47FA-844C-5C17064983C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FAF256-871D-47FA-844C-5C17064983C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FAF256-871D-47FA-844C-5C17064983C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB348FF-7B75-42A9-AB26-D45E30BDFC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB348FF-7B75-42A9-AB26-D45E30BDFC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB348FF-7B75-42A9-AB26-D45E30BDFC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB348FF-7B75-42A9-AB26-D45E30BDFC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A1D4C1-9C17-4EC9-81D3-2768CCD6046C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A1D4C1-9C17-4EC9-81D3-2768CCD6046C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A1D4C1-9C17-4EC9-81D3-2768CCD6046C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A1D4C1-9C17-4EC9-81D3-2768CCD6046C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEAA3B6-67CB-4CC0-9A41-597090628E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEAA3B6-67CB-4CC0-9A41-597090628E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEAA3B6-67CB-4CC0-9A41-597090628E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEAA3B6-67CB-4CC0-9A41-597090628E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131ED75E-9109-4AC0-BB2C-C0B2F3F88DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131ED75E-9109-4AC0-BB2C-C0B2F3F88DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131ED75E-9109-4AC0-BB2C-C0B2F3F88DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131ED75E-9109-4AC0-BB2C-C0B2F3F88DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4273A18-2DEE-43F4-ADF8-5828B11307BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4273A18-2DEE-43F4-ADF8-5828B11307BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4273A18-2DEE-43F4-ADF8-5828B11307BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4273A18-2DEE-43F4-ADF8-5828B11307BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413073E2-41DD-47C9-9B2A-75F10071F7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413073E2-41DD-47C9-9B2A-75F10071F7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413073E2-41DD-47C9-9B2A-75F10071F7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413073E2-41DD-47C9-9B2A-75F10071F7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2347F9DB-18B7-4AFE-83A2-FBA0290A146B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2347F9DB-18B7-4AFE-83A2-FBA0290A146B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2347F9DB-18B7-4AFE-83A2-FBA0290A146B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2347F9DB-18B7-4AFE-83A2-FBA0290A146B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64FA1C2-C93F-4056-8DA5-BF1FDA7EA98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64FA1C2-C93F-4056-8DA5-BF1FDA7EA98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64FA1C2-C93F-4056-8DA5-BF1FDA7EA98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64FA1C2-C93F-4056-8DA5-BF1FDA7EA98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A130000-66B4-4C2B-B913-956F651F13BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A130000-66B4-4C2B-B913-956F651F13BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A130000-66B4-4C2B-B913-956F651F13BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A130000-66B4-4C2B-B913-956F651F13BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC82EF05-9158-4D02-B960-76560EAF0074} = {E6B78579-5462-424B-8DDA-46F3A0A89E0D}
+		{F5D68A15-C503-49CE-9827-1F68FA600765} = {AC82EF05-9158-4D02-B960-76560EAF0074}
+		{19198FFE-9786-4AF6-BB04-26B3BBD77B7A} = {E6B78579-5462-424B-8DDA-46F3A0A89E0D}
+		{A34B3FFE-896A-4695-B4FC-B482C4776825} = {19198FFE-9786-4AF6-BB04-26B3BBD77B7A}
+		{1DD56F5D-14FA-42F7-860A-1CBA29B5DC57} = {A34B3FFE-896A-4695-B4FC-B482C4776825}
+		{4863D57E-B3F2-4EE0-BB9A-52BD50494E1E} = {A34B3FFE-896A-4695-B4FC-B482C4776825}
+		{3328F1FB-297F-4CF5-9348-D6D73A954238} = {1DD56F5D-14FA-42F7-860A-1CBA29B5DC57}
+		{836B2741-140D-4B73-ADDC-B260D0D56B75} = {3328F1FB-297F-4CF5-9348-D6D73A954238}
+		{61944421-D3AC-4B78-8741-57F0893A4C92} = {836B2741-140D-4B73-ADDC-B260D0D56B75}
+		{6D07F783-046B-4FA8-893B-B77C77B2A214} = {61944421-D3AC-4B78-8741-57F0893A4C92}
+		{E8858EDA-85A3-4139-880B-A71E2E7B6799} = {B7DFC511-6C5D-4944-917D-A1EF3DA55913}
+		{CD2C8D07-5B3B-4A42-9DB0-D12D226E11D0} = {E8858EDA-85A3-4139-880B-A71E2E7B6799}
+		{0D60C4DB-4A9B-43AD-BA0F-5FE4A3822928} = {CD2C8D07-5B3B-4A42-9DB0-D12D226E11D0}
+		{7D2C852F-B588-4F23-84DD-4F8DC9D2A807} = {B7DFC511-6C5D-4944-917D-A1EF3DA55913}
+		{81DD198A-9871-4A18-8E36-19194D90F660} = {7D2C852F-B588-4F23-84DD-4F8DC9D2A807}
+		{4C77BBD8-468C-4769-A340-A967CC93EA61} = {7D2C852F-B588-4F23-84DD-4F8DC9D2A807}
+		{2B531C7C-EFAA-4DC1-A31C-CB5CEEAF1420} = {4C77BBD8-468C-4769-A340-A967CC93EA61}
+		{84FC436E-5AD7-40E6-86EE-481FBF167156} = {7D2C852F-B588-4F23-84DD-4F8DC9D2A807}
+		{4CE4D956-EFCB-42F2-838C-DCD391FEA852} = {D5F8C93B-D685-4187-ADE1-59E3FA9D2F64}
+		{EF65C65D-F85F-4B32-B132-C08629B4A7CE} = {4558BB88-8901-4012-AA8D-551657F747F2}
+		{02FEE619-5112-4DE1-9159-11B8C89E6A95} = {4558BB88-8901-4012-AA8D-551657F747F2}
+		{169F1268-30A3-40A5-8A08-716D69BA04AF} = {4558BB88-8901-4012-AA8D-551657F747F2}
+		{26D9D7DB-95F7-49BB-8358-1E44D10BC3B0} = {4558BB88-8901-4012-AA8D-551657F747F2}
+		{1052E1ED-7F3C-4A0F-821A-77DB841F0742} = {4558BB88-8901-4012-AA8D-551657F747F2}
+		{BDA8AE1F-FB94-4556-A2DF-B028CE295266} = {4558BB88-8901-4012-AA8D-551657F747F2}
+		{8C3BF3A1-9D16-4130-A122-53A713600AE9} = {BDA8AE1F-FB94-4556-A2DF-B028CE295266}
+		{BFD5CEA5-95F5-4A71-A164-425CFE55748F} = {BDA8AE1F-FB94-4556-A2DF-B028CE295266}
+		{9A54F0AE-2C90-449E-A831-952EBED49E23} = {BDA8AE1F-FB94-4556-A2DF-B028CE295266}
+		{783FBC3A-AAA4-4EF1-A409-835CCC24DF7E} = {9A54F0AE-2C90-449E-A831-952EBED49E23}
+		{68ECC58E-BCC0-4C41-BD01-D91000C7C90F} = {BFD5CEA5-95F5-4A71-A164-425CFE55748F}
+		{FBB79328-4E24-49FE-8C66-FF8B74E6000F} = {8C3BF3A1-9D16-4130-A122-53A713600AE9}
+		{07349D91-985B-42A5-BC71-5533668C1288} = {EF65C65D-F85F-4B32-B132-C08629B4A7CE}
+		{08C87B25-2CF1-4B86-B54D-E97FBDEF8910} = {EF65C65D-F85F-4B32-B132-C08629B4A7CE}
+		{E21A5947-F157-4115-9C4B-C225C7BCF8FE} = {EF65C65D-F85F-4B32-B132-C08629B4A7CE}
+		{F2710F40-EBBE-454E-A05A-AB216F73328A} = {EF65C65D-F85F-4B32-B132-C08629B4A7CE}
+		{5C31D165-5AF3-4160-87A3-05E4450C65DA} = {EF65C65D-F85F-4B32-B132-C08629B4A7CE}
+		{5E6CDC46-EBED-49D4-A9A4-99AE607A1B62} = {EF65C65D-F85F-4B32-B132-C08629B4A7CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD40463E-37CE-48DD-910E-298FAFD90E83}
+	EndGlobalSection
+EndGlobal

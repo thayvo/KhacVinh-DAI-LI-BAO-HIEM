@@ -17,6 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AgentPortalGatewayService.Api\AgentPortalGatewayService.Api.csproj" />
+    <ProjectReference Include="..\AgentPortalGatewayService\AgentPortalGatewayService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
