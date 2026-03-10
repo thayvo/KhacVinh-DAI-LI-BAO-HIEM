@@ -1,4 +1,4 @@
-@PolicySearchService_HostAddress = http://localhost:5041
+@PolicySearchService_HostAddress = http://localhost:5087
 
 GET {{PolicySearchService_HostAddress}}/weatherforecast/
 Accept: application/json

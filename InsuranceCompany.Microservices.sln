@@ -1,0 +1,538 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{014A7CB7-ADFA-40E5-8C31-F6BE0E503239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Api", "ProductService.Api\ProductService.Api.csproj", "{63836398-47B8-4DCC-B84A-4C9776894C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Test", "ProductService.Test\ProductService.Test.csproj", "{CE6E503D-1E87-4E32-9D2B-081B94B2D76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{A4E26312-D70C-4F31-9F09-9A487F2D8183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Api", "PaymentService.Api\PaymentService.Api.csproj", "{E9E23F41-56DA-443E-AB69-ABB4BE8D3A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Test", "PaymentService.Test\PaymentService.Test.csproj", "{6D2AE06F-4A1D-4EC4-92F5-08DF90ABB106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService", "PolicyService\PolicyService.csproj", "{2E8597E1-17FE-44DF-AA99-559C06560A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService.Api", "PolicyService.Api\PolicyService.Api.csproj", "{006C7DE6-091A-48DE-BF06-9CEED08838D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService.Test", "PolicyService.Test\PolicyService.Test.csproj", "{6DB17623-0749-4E4B-9D1E-FA8A0CE1B84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService", "PolicySearchService\PolicySearchService.csproj", "{030BB2F3-1A4E-42E6-BB57-1ECFE9B116B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService.Api", "PolicySearchService.Api\PolicySearchService.Api.csproj", "{29A2598F-C442-4802-87F3-F3FBAE44B1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService.Test", "PolicySearchService.Test\PolicySearchService.Test.csproj", "{4CF3B29B-C235-404F-9F7A-5F1729F3EC77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{8FB26DA8-81E0-4FA1-862B-7F42FD6D0DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Api", "AuthService.Api\AuthService.Api.csproj", "{AF79ACFD-2519-4E27-AC72-6C6075C5FCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Test", "AuthService.Test\AuthService.Test.csproj", "{37E53E8E-8F6B-41E2-9392-15684FB4E33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService", "ChatService\ChatService.csproj", "{0E3FEB51-EE62-4EC0-AAF3-5E41E05B2860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Api", "ChatService.Api\ChatService.Api.csproj", "{DB38B7C3-064D-4FFD-BD37-CCAF52AE3970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Test", "ChatService.Test\ChatService.Test.csproj", "{300D97F7-477D-4A70-B062-03C7DED6CFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService", "DocumentService\DocumentService.csproj", "{6CA8BA4B-1674-4D1E-BD97-839837909C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService.Api", "DocumentService.Api\DocumentService.Api.csproj", "{6D18F0AB-70DE-424C-8896-40807870BAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService.Test", "DocumentService.Test\DocumentService.Test.csproj", "{F31D4541-A653-434A-A5DE-CBAC89FEC0AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalGateway", "AgentPortalGateway\AgentPortalGateway.csproj", "{6501CCEF-9DD9-43D6-98E7-491D782F87BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalGateway.Api", "AgentPortalGateway.Api\AgentPortalGateway.Api.csproj", "{45C1786B-0098-4FA6-A80A-F22014C3AC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalGateway.Test", "AgentPortalGateway.Test\AgentPortalGateway.Test.csproj", "{EB03B8FB-9306-428A-A5F2-BDD3B343C065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eureka-server", "eureka-server", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		eureka-server\build.gradle = eureka-server\build.gradle
+		eureka-server\Dockerfile = eureka-server\Dockerfile
+		eureka-server\gradlew = eureka-server\gradlew
+		eureka-server\gradlew.bat = eureka-server\gradlew.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{10B99FDD-E9A8-484F-8AF0-89B04FDD9A16}"
+	ProjectSection(SolutionItems) = preProject
+		postgres\createdatabases.sql = postgres\createdatabases.sql
+		postgres\Dockerfile = postgres\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradle", "gradle", "{B0AC5179-4F7E-4E4B-A1FA-A06F6D09D0CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrapper", "wrapper", "{50BDB7D6-1AC8-4230-8473-7851E4279006}"
+	ProjectSection(SolutionItems) = preProject
+		eureka-server\gradle\wrapper\gradle-wrapper.jar = eureka-server\gradle\wrapper\gradle-wrapper.jar
+		eureka-server\gradle\wrapper\gradle-wrapper.properties = eureka-server\gradle\wrapper\gradle-wrapper.properties
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB4A3F4C-A409-4BA4-B4A7-7A264871068F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "java", "java", "{6C2CDF3B-29F1-40F5-8029-B07B33192949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net", "net", "{6306AAD2-D561-4886-8E8D-32E3D6AD1DAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chrisrichardson", "chrisrichardson", "{62523C79-6CC0-4B0E-A7C4-265E3CD80E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{7E847B99-49EA-4D62-BBF9-F0E4B99289A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eurekaserver", "eurekaserver", "{1680E95F-4E32-4A24-9C86-A335C19E43A4}"
+	ProjectSection(SolutionItems) = preProject
+		eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java = eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{FB820B51-3C42-46F6-AA52-9EB08723518B}"
+	ProjectSection(SolutionItems) = preProject
+		eureka-server\src\main\resources\application.yml = eureka-server\src\main\resources\application.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{2AF45FBC-CA08-4A3A-8E42-3F170580A1C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{99896C40-C609-4E47-9051-D4EAF5E61FEE}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\app-build.sh = scripts\app-build.sh
+		scripts\app-down.sh = scripts\app-down.sh
+		scripts\app-logs.sh = scripts\app-logs.sh
+		scripts\app-run.sh = scripts\app-run.sh
+		scripts\app.yml = scripts\app.yml
+		scripts\build-without-tests.bat = scripts\build-without-tests.bat
+		scripts\build-without-tests.sh = scripts\build-without-tests.sh
+		scripts\build.bat = scripts\build.bat
+		scripts\build.sh = scripts\build.sh
+		scripts\infra-build.sh = scripts\infra-build.sh
+		scripts\infra-down.sh = scripts\infra-down.sh
+		scripts\infra-logs.sh = scripts\infra-logs.sh
+		scripts\infra-run.sh = scripts\infra-run.sh
+		scripts\infra.yml = scripts\infra.yml
+		scripts\rabbitmq-isolated.conf = scripts\rabbitmq-isolated.conf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{233C1C8B-A27F-4F6D-8DE1-DA43910F38E0}"
+	ProjectSection(SolutionItems) = preProject
+		Web\.dockerignore = Web\.dockerignore
+		Web\.env-example = Web\.env-example
+		Web\.gitignore = Web\.gitignore
+		Web\babel.config.js = Web\babel.config.js
+		Web\Dockerfile = Web\Dockerfile
+		Web\nginx.conf = Web\nginx.conf
+		Web\package-lock.json = Web\package-lock.json
+		Web\package.json = Web\package.json
+		Web\README.md = Web\README.md
+		Web\yarn.lock = Web\yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{D78CC966-2A8B-4FA3-BE2C-41694383C01C}"
+	ProjectSection(SolutionItems) = preProject
+		Web\public\favicon.ico = Web\public\favicon.ico
+		Web\public\index.html = Web\public\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{4510FCC7-037B-4E39-8781-501451E4D902}"
+	ProjectSection(SolutionItems) = preProject
+		Web\public\static\car.jpg = Web\public\static\car.jpg
+		Web\public\static\farm.jpg = Web\public\static\farm.jpg
+		Web\public\static\house.jpg = Web\public\static\house.jpg
+		Web\public\static\travel.jpg = Web\public\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{073E0199-A076-4F44-BAE1-461868EBA2CC}"
+	ProjectSection(SolutionItems) = preProject
+		Web\public\static\avatars\admin.png = Web\public\static\avatars\admin.png
+		Web\public\static\avatars\agent1.png = Web\public\static\avatars\agent1.png
+		Web\public\static\avatars\danny_solid.png = Web\public\static\avatars\danny_solid.png
+		Web\public\static\avatars\jimmy_solid.png = Web\public\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C792B440-7F39-439F-8C21-2FDC0218F470}"
+	ProjectSection(SolutionItems) = preProject
+		Web\src\App.vue = Web\src\App.vue
+		Web\src\main.js = Web\src\main.js
+		Web\src\router.js = Web\src\router.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{61B1916A-5BA7-49CF-901B-1E37203FE60C}"
+	ProjectSection(SolutionItems) = preProject
+		Web\src\assets\logo.png = Web\src\assets\logo.png
+		Web\src\assets\logo_horizontal.png = Web\src\assets\logo_horizontal.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{4E8FC280-C6E6-432F-A773-81F39ED156B1}"
+	ProjectSection(SolutionItems) = preProject
+		Web\src\components\Account.vue = Web\src\components\Account.vue
+		Web\src\components\Chat.vue = Web\src\components\Chat.vue
+		Web\src\components\Chatbot.vue = Web\src\components\Chatbot.vue
+		Web\src\components\CoverList.vue = Web\src\components\CoverList.vue
+		Web\src\components\Dashboard.vue = Web\src\components\Dashboard.vue
+		Web\src\components\Home.vue = Web\src\components\Home.vue
+		Web\src\components\PolicyCreate.vue = Web\src\components\PolicyCreate.vue
+		Web\src\components\PolicyDetails.vue = Web\src\components\PolicyDetails.vue
+		Web\src\components\PolicyList.vue = Web\src\components\PolicyList.vue
+		Web\src\components\ProductCard.vue = Web\src\components\ProductCard.vue
+		Web\src\components\ProductDetails.vue = Web\src\components\ProductDetails.vue
+		Web\src\components\ProductList.vue = Web\src\components\ProductList.vue
+		Web\src\components\SalesAgents.vue = Web\src\components\SalesAgents.vue
+		Web\src\components\SalesBar.js = Web\src\components\SalesBar.js
+		Web\src\components\SalesDistribution.vue = Web\src\components\SalesDistribution.vue
+		Web\src\components\SalesLines.js = Web\src\components\SalesLines.js
+		Web\src\components\SalesPie.js = Web\src\components\SalesPie.js
+		Web\src\components\SalesTrendsLines.vue = Web\src\components\SalesTrendsLines.vue
+		Web\src\components\TotalSalesCard.vue = Web\src\components\TotalSalesCard.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http", "http", "{57A25607-88FE-4581-8087-E1EAA4732E5D}"
+	ProjectSection(SolutionItems) = preProject
+		Web\src\components\http\ApiClient.js = Web\src\components\http\ApiClient.js
+		Web\src\components\http\Auth.js = Web\src\components\http\Auth.js
+		Web\src\components\http\WebSocket.js = Web\src\components\http\WebSocket.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{724A68B5-F136-4437-AEEE-4BC6A4D6F71A}"
+	ProjectSection(SolutionItems) = preProject
+		Web\src\views\AccountView.vue = Web\src\views\AccountView.vue
+		Web\src\views\ChatbotView.vue = Web\src\views\ChatbotView.vue
+		Web\src\views\ChatView.vue = Web\src\views\ChatView.vue
+		Web\src\views\DashboardView.vue = Web\src\views\DashboardView.vue
+		Web\src\views\HomeView.vue = Web\src\views\HomeView.vue
+		Web\src\views\PoliciesView.vue = Web\src\views\PoliciesView.vue
+		Web\src\views\PolicyCreateView.vue = Web\src\views\PolicyCreateView.vue
+		Web\src\views\PolicyDetailsView.vue = Web\src\views\PolicyDetailsView.vue
+		Web\src\views\ProductDetailsView.vue = Web\src\views\ProductDetailsView.vue
+		Web\src\views\ProductsView.vue = Web\src\views\ProductsView.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWasmClient", "BlazorWasmClient", "{4C0A1531-43DE-455A-B01B-B835279F01D6}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\App.razor = BlazorWasmClient\App.razor
+		BlazorWasmClient\BlazorWasmClient.csproj = BlazorWasmClient\BlazorWasmClient.csproj
+		BlazorWasmClient\GlobalUsings.cs = BlazorWasmClient\GlobalUsings.cs
+		BlazorWasmClient\Program.cs = BlazorWasmClient\Program.cs
+		BlazorWasmClient\_Imports.razor = BlazorWasmClient\_Imports.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{B29187D3-3F74-406A-B89D-B1076533A2CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{214E4424-BEDB-4B30-8657-8982B75A34F0}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Components\Auth\AuthClient.cs = BlazorWasmClient\Components\Auth\AuthClient.cs
+		BlazorWasmClient\Components\Auth\AuthRequest.cs = BlazorWasmClient\Components\Auth\AuthRequest.cs
+		BlazorWasmClient\Components\Auth\AuthResponse.cs = BlazorWasmClient\Components\Auth\AuthResponse.cs
+		BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs = BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs
+		BlazorWasmClient\Components\Auth\Login.razor = BlazorWasmClient\Components\Auth\Login.razor
+		BlazorWasmClient\Components\Auth\SessionStorageExtension.cs = BlazorWasmClient\Components\Auth\SessionStorageExtension.cs
+		BlazorWasmClient\Components\Auth\UserSession.cs = BlazorWasmClient\Components\Auth\UserSession.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{230F9735-1645-4F81-9455-B0FA0D48F917}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Components\Chat\Chat.razor = BlazorWasmClient\Components\Chat\Chat.razor
+		BlazorWasmClient\Components\Chat\ChatMessage.cs = BlazorWasmClient\Components\Chat\ChatMessage.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{138B0F9C-BD6D-4506-9436-61C6E4852F17}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Components\Dashboard\Dashboard.razor = BlazorWasmClient\Components\Dashboard\Dashboard.razor
+		BlazorWasmClient\Components\Dashboard\DashboardClient.cs = BlazorWasmClient\Components\Dashboard\DashboardClient.cs
+		BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor = BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor
+		BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs = BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs
+		BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor = BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor
+		BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor = BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor
+		BlazorWasmClient\Components\Dashboard\TrandsCard.razor = BlazorWasmClient\Components\Dashboard\TrandsCard.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layout", "Layout", "{7049759A-17EF-4F87-9A61-7DA3CB735584}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Components\Layout\FooterMenu.razor = BlazorWasmClient\Components\Layout\FooterMenu.razor
+		BlazorWasmClient\Components\Layout\SideMenu.razor = BlazorWasmClient\Components\Layout\SideMenu.razor
+		BlazorWasmClient\Components\Layout\ThemeColorSelector.razor = BlazorWasmClient\Components\Layout\ThemeColorSelector.razor
+		BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css = BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css
+		BlazorWasmClient\Components\Layout\TopMenu.razor = BlazorWasmClient\Components\Layout\TopMenu.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearch", "PolicySearch", "{B111B62E-0573-43E6-A374-8DF6B45789C3}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Components\PolicySearch\PolicySearch.razor = BlazorWasmClient\Components\PolicySearch\PolicySearch.razor
+		BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs = BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs
+		BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs = BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{BBC1B302-19D9-4F35-B4A6-67D044819373}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Components\Products\ContractDetailsSection.razor = BlazorWasmClient\Components\Products\ContractDetailsSection.razor
+		BlazorWasmClient\Components\Products\OfferParametersModel.cs = BlazorWasmClient\Components\Products\OfferParametersModel.cs
+		BlazorWasmClient\Components\Products\OfferParamsSection.razor = BlazorWasmClient\Components\Products\OfferParamsSection.razor
+		BlazorWasmClient\Components\Products\PolicyClient.cs = BlazorWasmClient\Components\Products\PolicyClient.cs
+		BlazorWasmClient\Components\Products\PolicySummarySection.razor = BlazorWasmClient\Components\Products\PolicySummarySection.razor
+		BlazorWasmClient\Components\Products\ProductCard.razor = BlazorWasmClient\Components\Products\ProductCard.razor
+		BlazorWasmClient\Components\Products\ProductDetails.razor = BlazorWasmClient\Components\Products\ProductDetails.razor
+		BlazorWasmClient\Components\Products\ProductsClient.cs = BlazorWasmClient\Components\Products\ProductsClient.cs
+		BlazorWasmClient\Components\Products\ProductsList.razor = BlazorWasmClient\Components\Products\ProductsList.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layouts", "Layouts", "{DE99DE72-C4F5-465E-9E3D-15DA93E20CA7}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Layouts\MainLayout.razor = BlazorWasmClient\Layouts\MainLayout.razor
+		BlazorWasmClient\Layouts\MainLayout.razor.cs = BlazorWasmClient\Layouts\MainLayout.razor.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{39335FF6-0F1E-49AB-B6CE-9B5B75FD8832}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Pages\Home.razor = BlazorWasmClient\Pages\Home.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{FD80F668-43D5-44F0-A9CB-254AB1891FE0}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Properties\launchSettings.json = BlazorWasmClient\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{39245577-D0F3-44BC-8AA7-52FC114FBE91}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\Shared\ApiResponse.cs = BlazorWasmClient\Shared\ApiResponse.cs
+		BlazorWasmClient\Shared\CustomValidations.cs = BlazorWasmClient\Shared\CustomValidations.cs
+		BlazorWasmClient\Shared\DateTimeExtension.cs = BlazorWasmClient\Shared\DateTimeExtension.cs
+		BlazorWasmClient\Shared\ProductIcons.cs = BlazorWasmClient\Shared\ProductIcons.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{D3B29A59-A9A8-4935-ACA0-C32894B149D3}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\wwwroot\appsettings.json = BlazorWasmClient\wwwroot\appsettings.json
+		BlazorWasmClient\wwwroot\brand-logo.png = BlazorWasmClient\wwwroot\brand-logo.png
+		BlazorWasmClient\wwwroot\favicon.ico = BlazorWasmClient\wwwroot\favicon.ico
+		BlazorWasmClient\wwwroot\index.html = BlazorWasmClient\wwwroot\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{FEB2282C-3D2C-4AAF-B4E4-9886B0779C62}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\wwwroot\css\blazor-ui.css = BlazorWasmClient\wwwroot\css\blazor-ui.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{AD2F53DF-1B6D-4CB8-B7C2-3342F61F1CC9}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\wwwroot\css\material\material.css = BlazorWasmClient\wwwroot\css\material\material.css
+		BlazorWasmClient\wwwroot\css\material\material.css.map = BlazorWasmClient\wwwroot\css\material\material.css.map
+		BlazorWasmClient\wwwroot\css\material\material.min.css = BlazorWasmClient\wwwroot\css\material\material.min.css
+		BlazorWasmClient\wwwroot\css\material\material.min.css.map = BlazorWasmClient\wwwroot\css\material\material.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{9FCDCA4C-434A-4425-B36E-6C072185133F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{F46D5668-0A5B-4A18-B409-497C215A850E}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\wwwroot\js\material\material.js = BlazorWasmClient\wwwroot\js\material\material.js
+		BlazorWasmClient\wwwroot\js\material\material.js.map = BlazorWasmClient\wwwroot\js\material\material.js.map
+		BlazorWasmClient\wwwroot\js\material\material.min.js = BlazorWasmClient\wwwroot\js\material\material.min.js
+		BlazorWasmClient\wwwroot\js\material\material.min.js.map = BlazorWasmClient\wwwroot\js\material\material.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{CB986861-D55C-485E-AC24-66B803B54FE5}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\wwwroot\static\car.jpg = BlazorWasmClient\wwwroot\static\car.jpg
+		BlazorWasmClient\wwwroot\static\farm.jpg = BlazorWasmClient\wwwroot\static\farm.jpg
+		BlazorWasmClient\wwwroot\static\house.jpg = BlazorWasmClient\wwwroot\static\house.jpg
+		BlazorWasmClient\wwwroot\static\travel.jpg = BlazorWasmClient\wwwroot\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{46EC8A34-8EE2-45A6-861F-D2470B840361}"
+	ProjectSection(SolutionItems) = preProject
+		BlazorWasmClient\wwwroot\static\avatars\admin.png = BlazorWasmClient\wwwroot\static\avatars\admin.png
+		BlazorWasmClient\wwwroot\static\avatars\agent1.png = BlazorWasmClient\wwwroot\static\avatars\agent1.png
+		BlazorWasmClient\wwwroot\static\avatars\danny_solid.png = BlazorWasmClient\wwwroot\static\avatars\danny_solid.png
+		BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png = BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentPortalApiGateway", "AgentPortalApiGateway", "{23ACB5D0-7790-4515-B717-B82D4E84356E}"
+	ProjectSection(SolutionItems) = preProject
+		AgentPortalApiGateway\AgentPortalApiGateway.csproj = AgentPortalApiGateway\AgentPortalApiGateway.csproj
+		AgentPortalApiGateway\AppSettings.cs = AgentPortalApiGateway\AppSettings.cs
+		AgentPortalApiGateway\appsettings.Development.json = AgentPortalApiGateway\appsettings.Development.json
+		AgentPortalApiGateway\appsettings.docker.json = AgentPortalApiGateway\appsettings.docker.json
+		AgentPortalApiGateway\appsettings.json = AgentPortalApiGateway\appsettings.json
+		AgentPortalApiGateway\Dockerfile = AgentPortalApiGateway\Dockerfile
+		AgentPortalApiGateway\ocelot.docker.json = AgentPortalApiGateway\ocelot.docker.json
+		AgentPortalApiGateway\ocelot.json = AgentPortalApiGateway\ocelot.json
+		AgentPortalApiGateway\Program.cs = AgentPortalApiGateway\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{A594A363-1569-48B3-BF9F-F1866FD0C4BA}"
+	ProjectSection(SolutionItems) = preProject
+		AgentPortalApiGateway\Properties\launchSettings.json = AgentPortalApiGateway\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService", "PricingService\PricingService.csproj", "{12E328EC-7DE6-DEF2-A111-1BC5A703BC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.Api", "PricingService.Api\PricingService.Api.csproj", "{E1BF8FC1-D2FB-B7F7-A0A4-F26308A5148F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.IntegrationTest", "PricingService.IntegrationTest\PricingService.IntegrationTest.csproj", "{54BADB52-6CD6-94C6-B6FA-E0A7D539B9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.Test", "PricingService.Test\PricingService.Test.csproj", "{25FFA9DB-EDB2-AF0D-08AD-F27526313D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014A7CB7-ADFA-40E5-8C31-F6BE0E503239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014A7CB7-ADFA-40E5-8C31-F6BE0E503239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014A7CB7-ADFA-40E5-8C31-F6BE0E503239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014A7CB7-ADFA-40E5-8C31-F6BE0E503239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63836398-47B8-4DCC-B84A-4C9776894C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63836398-47B8-4DCC-B84A-4C9776894C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63836398-47B8-4DCC-B84A-4C9776894C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63836398-47B8-4DCC-B84A-4C9776894C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6E503D-1E87-4E32-9D2B-081B94B2D76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6E503D-1E87-4E32-9D2B-081B94B2D76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6E503D-1E87-4E32-9D2B-081B94B2D76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6E503D-1E87-4E32-9D2B-081B94B2D76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E26312-D70C-4F31-9F09-9A487F2D8183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E26312-D70C-4F31-9F09-9A487F2D8183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E26312-D70C-4F31-9F09-9A487F2D8183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E26312-D70C-4F31-9F09-9A487F2D8183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E23F41-56DA-443E-AB69-ABB4BE8D3A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E23F41-56DA-443E-AB69-ABB4BE8D3A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E23F41-56DA-443E-AB69-ABB4BE8D3A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E23F41-56DA-443E-AB69-ABB4BE8D3A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2AE06F-4A1D-4EC4-92F5-08DF90ABB106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2AE06F-4A1D-4EC4-92F5-08DF90ABB106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2AE06F-4A1D-4EC4-92F5-08DF90ABB106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2AE06F-4A1D-4EC4-92F5-08DF90ABB106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8597E1-17FE-44DF-AA99-559C06560A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8597E1-17FE-44DF-AA99-559C06560A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8597E1-17FE-44DF-AA99-559C06560A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8597E1-17FE-44DF-AA99-559C06560A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006C7DE6-091A-48DE-BF06-9CEED08838D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006C7DE6-091A-48DE-BF06-9CEED08838D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006C7DE6-091A-48DE-BF06-9CEED08838D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006C7DE6-091A-48DE-BF06-9CEED08838D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB17623-0749-4E4B-9D1E-FA8A0CE1B84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB17623-0749-4E4B-9D1E-FA8A0CE1B84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB17623-0749-4E4B-9D1E-FA8A0CE1B84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB17623-0749-4E4B-9D1E-FA8A0CE1B84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030BB2F3-1A4E-42E6-BB57-1ECFE9B116B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030BB2F3-1A4E-42E6-BB57-1ECFE9B116B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030BB2F3-1A4E-42E6-BB57-1ECFE9B116B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030BB2F3-1A4E-42E6-BB57-1ECFE9B116B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A2598F-C442-4802-87F3-F3FBAE44B1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A2598F-C442-4802-87F3-F3FBAE44B1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A2598F-C442-4802-87F3-F3FBAE44B1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A2598F-C442-4802-87F3-F3FBAE44B1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF3B29B-C235-404F-9F7A-5F1729F3EC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF3B29B-C235-404F-9F7A-5F1729F3EC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF3B29B-C235-404F-9F7A-5F1729F3EC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF3B29B-C235-404F-9F7A-5F1729F3EC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB26DA8-81E0-4FA1-862B-7F42FD6D0DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB26DA8-81E0-4FA1-862B-7F42FD6D0DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB26DA8-81E0-4FA1-862B-7F42FD6D0DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB26DA8-81E0-4FA1-862B-7F42FD6D0DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF79ACFD-2519-4E27-AC72-6C6075C5FCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF79ACFD-2519-4E27-AC72-6C6075C5FCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF79ACFD-2519-4E27-AC72-6C6075C5FCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF79ACFD-2519-4E27-AC72-6C6075C5FCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E53E8E-8F6B-41E2-9392-15684FB4E33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E53E8E-8F6B-41E2-9392-15684FB4E33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E53E8E-8F6B-41E2-9392-15684FB4E33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E53E8E-8F6B-41E2-9392-15684FB4E33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3FEB51-EE62-4EC0-AAF3-5E41E05B2860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3FEB51-EE62-4EC0-AAF3-5E41E05B2860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3FEB51-EE62-4EC0-AAF3-5E41E05B2860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3FEB51-EE62-4EC0-AAF3-5E41E05B2860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB38B7C3-064D-4FFD-BD37-CCAF52AE3970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB38B7C3-064D-4FFD-BD37-CCAF52AE3970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB38B7C3-064D-4FFD-BD37-CCAF52AE3970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB38B7C3-064D-4FFD-BD37-CCAF52AE3970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300D97F7-477D-4A70-B062-03C7DED6CFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300D97F7-477D-4A70-B062-03C7DED6CFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300D97F7-477D-4A70-B062-03C7DED6CFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300D97F7-477D-4A70-B062-03C7DED6CFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA8BA4B-1674-4D1E-BD97-839837909C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA8BA4B-1674-4D1E-BD97-839837909C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA8BA4B-1674-4D1E-BD97-839837909C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA8BA4B-1674-4D1E-BD97-839837909C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D18F0AB-70DE-424C-8896-40807870BAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D18F0AB-70DE-424C-8896-40807870BAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D18F0AB-70DE-424C-8896-40807870BAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D18F0AB-70DE-424C-8896-40807870BAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31D4541-A653-434A-A5DE-CBAC89FEC0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31D4541-A653-434A-A5DE-CBAC89FEC0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31D4541-A653-434A-A5DE-CBAC89FEC0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31D4541-A653-434A-A5DE-CBAC89FEC0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6501CCEF-9DD9-43D6-98E7-491D782F87BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6501CCEF-9DD9-43D6-98E7-491D782F87BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6501CCEF-9DD9-43D6-98E7-491D782F87BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6501CCEF-9DD9-43D6-98E7-491D782F87BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C1786B-0098-4FA6-A80A-F22014C3AC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C1786B-0098-4FA6-A80A-F22014C3AC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C1786B-0098-4FA6-A80A-F22014C3AC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C1786B-0098-4FA6-A80A-F22014C3AC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB03B8FB-9306-428A-A5F2-BDD3B343C065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB03B8FB-9306-428A-A5F2-BDD3B343C065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB03B8FB-9306-428A-A5F2-BDD3B343C065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB03B8FB-9306-428A-A5F2-BDD3B343C065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E328EC-7DE6-DEF2-A111-1BC5A703BC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E328EC-7DE6-DEF2-A111-1BC5A703BC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E328EC-7DE6-DEF2-A111-1BC5A703BC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E328EC-7DE6-DEF2-A111-1BC5A703BC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BF8FC1-D2FB-B7F7-A0A4-F26308A5148F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BF8FC1-D2FB-B7F7-A0A4-F26308A5148F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BF8FC1-D2FB-B7F7-A0A4-F26308A5148F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BF8FC1-D2FB-B7F7-A0A4-F26308A5148F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BADB52-6CD6-94C6-B6FA-E0A7D539B9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BADB52-6CD6-94C6-B6FA-E0A7D539B9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BADB52-6CD6-94C6-B6FA-E0A7D539B9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BADB52-6CD6-94C6-B6FA-E0A7D539B9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25FFA9DB-EDB2-AF0D-08AD-F27526313D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FFA9DB-EDB2-AF0D-08AD-F27526313D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FFA9DB-EDB2-AF0D-08AD-F27526313D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FFA9DB-EDB2-AF0D-08AD-F27526313D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0AC5179-4F7E-4E4B-A1FA-A06F6D09D0CA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{50BDB7D6-1AC8-4230-8473-7851E4279006} = {B0AC5179-4F7E-4E4B-A1FA-A06F6D09D0CA}
+		{AB4A3F4C-A409-4BA4-B4A7-7A264871068F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6C2CDF3B-29F1-40F5-8029-B07B33192949} = {2AF45FBC-CA08-4A3A-8E42-3F170580A1C0}
+		{6306AAD2-D561-4886-8E8D-32E3D6AD1DAE} = {6C2CDF3B-29F1-40F5-8029-B07B33192949}
+		{62523C79-6CC0-4B0E-A7C4-265E3CD80E28} = {6306AAD2-D561-4886-8E8D-32E3D6AD1DAE}
+		{7E847B99-49EA-4D62-BBF9-F0E4B99289A0} = {62523C79-6CC0-4B0E-A7C4-265E3CD80E28}
+		{1680E95F-4E32-4A24-9C86-A335C19E43A4} = {7E847B99-49EA-4D62-BBF9-F0E4B99289A0}
+		{FB820B51-3C42-46F6-AA52-9EB08723518B} = {2AF45FBC-CA08-4A3A-8E42-3F170580A1C0}
+		{2AF45FBC-CA08-4A3A-8E42-3F170580A1C0} = {AB4A3F4C-A409-4BA4-B4A7-7A264871068F}
+		{D78CC966-2A8B-4FA3-BE2C-41694383C01C} = {233C1C8B-A27F-4F6D-8DE1-DA43910F38E0}
+		{4510FCC7-037B-4E39-8781-501451E4D902} = {D78CC966-2A8B-4FA3-BE2C-41694383C01C}
+		{073E0199-A076-4F44-BAE1-461868EBA2CC} = {4510FCC7-037B-4E39-8781-501451E4D902}
+		{C792B440-7F39-439F-8C21-2FDC0218F470} = {233C1C8B-A27F-4F6D-8DE1-DA43910F38E0}
+		{61B1916A-5BA7-49CF-901B-1E37203FE60C} = {C792B440-7F39-439F-8C21-2FDC0218F470}
+		{4E8FC280-C6E6-432F-A773-81F39ED156B1} = {C792B440-7F39-439F-8C21-2FDC0218F470}
+		{57A25607-88FE-4581-8087-E1EAA4732E5D} = {4E8FC280-C6E6-432F-A773-81F39ED156B1}
+		{724A68B5-F136-4437-AEEE-4BC6A4D6F71A} = {C792B440-7F39-439F-8C21-2FDC0218F470}
+		{B29187D3-3F74-406A-B89D-B1076533A2CD} = {4C0A1531-43DE-455A-B01B-B835279F01D6}
+		{214E4424-BEDB-4B30-8657-8982B75A34F0} = {B29187D3-3F74-406A-B89D-B1076533A2CD}
+		{230F9735-1645-4F81-9455-B0FA0D48F917} = {B29187D3-3F74-406A-B89D-B1076533A2CD}
+		{138B0F9C-BD6D-4506-9436-61C6E4852F17} = {B29187D3-3F74-406A-B89D-B1076533A2CD}
+		{7049759A-17EF-4F87-9A61-7DA3CB735584} = {B29187D3-3F74-406A-B89D-B1076533A2CD}
+		{B111B62E-0573-43E6-A374-8DF6B45789C3} = {B29187D3-3F74-406A-B89D-B1076533A2CD}
+		{BBC1B302-19D9-4F35-B4A6-67D044819373} = {B29187D3-3F74-406A-B89D-B1076533A2CD}
+		{DE99DE72-C4F5-465E-9E3D-15DA93E20CA7} = {4C0A1531-43DE-455A-B01B-B835279F01D6}
+		{39335FF6-0F1E-49AB-B6CE-9B5B75FD8832} = {4C0A1531-43DE-455A-B01B-B835279F01D6}
+		{FD80F668-43D5-44F0-A9CB-254AB1891FE0} = {4C0A1531-43DE-455A-B01B-B835279F01D6}
+		{39245577-D0F3-44BC-8AA7-52FC114FBE91} = {4C0A1531-43DE-455A-B01B-B835279F01D6}
+		{D3B29A59-A9A8-4935-ACA0-C32894B149D3} = {4C0A1531-43DE-455A-B01B-B835279F01D6}
+		{FEB2282C-3D2C-4AAF-B4E4-9886B0779C62} = {D3B29A59-A9A8-4935-ACA0-C32894B149D3}
+		{AD2F53DF-1B6D-4CB8-B7C2-3342F61F1CC9} = {FEB2282C-3D2C-4AAF-B4E4-9886B0779C62}
+		{9FCDCA4C-434A-4425-B36E-6C072185133F} = {D3B29A59-A9A8-4935-ACA0-C32894B149D3}
+		{F46D5668-0A5B-4A18-B409-497C215A850E} = {9FCDCA4C-434A-4425-B36E-6C072185133F}
+		{CB986861-D55C-485E-AC24-66B803B54FE5} = {D3B29A59-A9A8-4935-ACA0-C32894B149D3}
+		{46EC8A34-8EE2-45A6-861F-D2470B840361} = {CB986861-D55C-485E-AC24-66B803B54FE5}
+		{A594A363-1569-48B3-BF9F-F1866FD0C4BA} = {23ACB5D0-7790-4515-B717-B82D4E84356E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FA3C484-2D23-41C8-B954-25A9BE4E7785}
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,0 @@
-@AgentPortalGatewayService_HostAddress = http://localhost:5017
-
-GET {{AgentPortalGatewayService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
