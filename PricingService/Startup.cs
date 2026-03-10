@@ -48,6 +48,7 @@ public class Startup
             app.UseSwaggerUI();
         }
 
+        app.UseDiscoveryClient();
         app.UseInitializer();
         app.UseEndpoints(endpoints => endpoints.MapControllers());
     }
